@@ -57,7 +57,7 @@ app.get('/notify', function(req, res) {
 
     console.log(req.query);
 
-    var messageUrl = "http://180b7088.ngrok.com/message?";
+    var messageUrl = "http://dukecs408-twilio.herokuapp.com/message?";
     for (var q in req.query) {
         messageUrl += q + "=" + req.query[q] + "&";
     }
@@ -82,6 +82,7 @@ app.get('/notify', function(req, res) {
 
 // test URL:
 // http://localhost:3000/notify?nameRecipient=chinmay&nameConcerning=jeff daye&phoneNumber=7034855298&statName=power level&statValue=9001&statUnit=units&statLowerBound=0&statUpperBound=9000
+// http://dukecs408-twilio.herokuapp.com/notify?nameRecipient=chinmay&nameConcerning=jeff%20daye&phoneNumber=7034855298&statName=power%20level&statValue=9001&statUnit=units&statLowerBound=0&statUpperBound=9000
 
 
 
