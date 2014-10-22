@@ -115,7 +115,7 @@ function validateQuery(query) {
 
 // test URL:
 // http://localhost:3000/notifyWithCall?recipientName=chinmay&patientName=jeff daye&recipientPhoneNumber=7034855298&statName=power level&statValue=9001&statUnit=units&statLowerBound=0&statUpperBound=9000
-// http://localhost:3000/notifyWithText?recipientName=chinmay&patientName=jeff daye&recipientPhoneNumber=7034855298&statName=power level&statValue=9001&statUnit=units&statLowerBound=0&statUpperBound=9000
+// http://dukecs408-twilio.herokuapp.com/notifyWithText?recipientName=chinmay&patientName=jeff%20daye&recipientPhoneNumber=7034855298&statName=power%20level&statValue=9001&statUnit=units&statLowerBound=0&statUpperBound=9000
 // http://dukecs408-twilio.herokuapp.com/notifyWithCall?recipientName=chinmay&patientName=jeff%20daye&recipientPhoneNumber=7034855298&statName=power%20level&statValue=9001&statUnit=units&statLowerBound=0&statUpperBound=9000
 
 
